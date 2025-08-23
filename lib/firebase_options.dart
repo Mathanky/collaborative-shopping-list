@@ -32,7 +32,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDRaxRtcM7_qpZ8nRQ1dghkkrWeBBrYi5U',
+    apiKey: 'YOUR_API_KEY',
     appId: '1:634789103287:web:a118bbd44ad45f6f046f32',
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
@@ -42,7 +42,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBpUdDeUdfbNWVS6wEeSEy3Em-B2qE4bXg',
+    apiKey: YOUR_API_KEY,
     appId: '1:634789103287:android:44d5c1c29000f923046f32',
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDJ0PSfTzFNKLz_0Vfy5o8FBk4UhTMfNL0',
+    apiKey: 'YOUR_API_KEY',
     appId: '1:634789103287:ios:fdc067d6b8b469aa046f32',
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
