@@ -32,7 +32,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
+    apiKey: 'AIzaSyDJ0PSfTzFNKLz_0Vfy5o8FBk4UhTMfNL0', // Use consistent API key
     appId: '1:634789103287:web:a118bbd44ad45f6f046f32',
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
@@ -42,7 +42,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: YOUR_API_KEY,
+    apiKey: '', // Replace with key from google-services.json
     appId: '1:634789103287:android:44d5c1c29000f923046f32',
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
+    apiKey: 'AIzaSyDJ0PSfTzFNKLz_0Vfy5o8FBk4UhTMfNL0', // Matches GoogleService-Info.plist
     appId: '1:634789103287:ios:fdc067d6b8b469aa046f32',
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
@@ -59,17 +59,17 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDJ0PSfTzFNKLz_0Vfy5o8FBk4UhTMfNL0',
-    appId: '1:634789103287:ios:fdc067d6b8b469aa046f32',
+    apiKey: 'AIzaSyDJ0PSfTzFNKLz_0Vfy5o8FBk4UhTMfNL0', // Use consistent API key
+    appId: '1:634789103287:macos:YOUR_MACOS_APP_ID', // Replace with valid macOS app ID
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
     storageBucket: 'shoppinglistapp-9a3df.firebasestorage.app',
-    iosBundleId: 'com.example.collaborativeShoppingList',
+    iosBundleId: 'com.example.collaborativeShoppingList.macos', // Adjust if needed
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDRaxRtcM7_qpZ8nRQ1dghkkrWeBBrYi5U',
-    appId: '1:634789103287:windows:YOUR_WINDOWS_APP_ID_HERE', // Replace with a valid ID from Firebase Console
+    apiKey: 'AIzaSyDJ0PSfTzFNKLz_0Vfy5o8FBk4UhTMfNL0', // Use consistent API key
+    appId: '1:634789103287:windows:YOUR_WINDOWS_APP_ID', // Replace with valid Windows app ID
     messagingSenderId: '634789103287',
     projectId: 'shoppinglistapp-9a3df',
     authDomain: 'shoppinglistapp-9a3df.firebaseapp.com',
